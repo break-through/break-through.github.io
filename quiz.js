@@ -301,7 +301,7 @@ function callFirst(){
 	   * Allows facebook to rescrape for metadata changes. Thus should occur on each new 'quiz'.
 	   */
 	  function reScrape(){
-		var url= "http://localhost:8000/quiz/index.html";
+		var url= "https://break-through.github.io/index.html";
 			$.ajax({
 			type: 'POST',
 			url: 'https://graph.facebook.com?id='+url+'&scrape=true',
