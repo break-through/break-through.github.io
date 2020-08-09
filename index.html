@@ -28,9 +28,10 @@
 			scrape: true
 		}, function(response) {
 			if(!response || response.error){
-				masterdfd.reject(response);
+			  console.log("NOOO");
 			}else{
-				masterdfd.resolve(response);
+        console.log("YES");
+        console.log(response);
 			}
 		});
 
