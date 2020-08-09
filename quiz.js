@@ -55,7 +55,8 @@ function callFirst(){
 			var lvl1_correct = 0;
 			var lvl2_correct = 0;
 			var lvl3_correct = 0;
-
+			
+			reScrape("https://break-through.github.io/index.html");
 
 			$.ajax({
 			type: "GET",  
@@ -96,7 +97,7 @@ function callFirst(){
 			}   
 			});
 
-			reScrape();
+			
 
 
 			function generateTrackers(myData, myCount){
@@ -300,16 +301,20 @@ function callFirst(){
 	  /**
 	   * Allows facebook to rescrape for metadata changes. Thus should occur on each new 'quiz'.
 	   */
-	  function reScrape(){
-		var url= "https://break-through.github.io/index.html";
-			$.ajax({
-			type: 'POST',
-			url: 'https://graph.facebook.com?id='+url+'&scrape=true',
-				success: function(data){
-				console.log(data);
-				console.log("YOYO");
+	  function reScrape(url){
+		console.log("START");
+		var masterdfd = $.Deferred();
+		FB.api('https://graph.facebook.com/', 'post', {
+			id: [url],
+			scrape: true
+		}, function(response) {
+			if(!response || response.error){
+				masterdfd.reject(response);
+			}else{
+				masterdfd.resolve(response);
 			}
 		});
+		return masterdfd;
 	}
 	
 		/**
