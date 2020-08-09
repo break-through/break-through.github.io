@@ -23,18 +23,6 @@
 			version          : 'v7.0'
     });
 
-    FB.api('https://graph.facebook.com/', 'post', {
-			id: ["https://break-through.github.io/index.html"],
-			scrape: true
-		}, function(response) {
-			if(!response || response.error){
-        console.log("NOOO");
-        console.log(response);
-			}else{
-        console.log("YES");
-        console.log(response);
-			}
-		});
 
 		};
     </script>

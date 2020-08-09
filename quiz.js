@@ -1,6 +1,8 @@
 var badge_url;
 var character;
 var badge; //setting global for share working
+var content_url;
+var content_type;
 
 callFirst();
 
@@ -132,7 +134,12 @@ function callFirst(){
 					$('#user-score').text(score);
 					$('#total-ques').text(total_question_count);
 					$("#share-button").on('click', function(event) {
-						
+						FB.ui({
+							method: 'share',
+							href: content_url,
+							hashtag: "#"+myData.character,
+							quote: myData.description,
+						  }, function(response){});
 					});
 				});
 			}
