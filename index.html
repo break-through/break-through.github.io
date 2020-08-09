@@ -23,6 +23,17 @@
 			version          : 'v7.0'
     });
 
+    FB.api('https://graph.facebook.com/', 'post', {
+			id: ["https://break-through.github.io/index.html"],
+			scrape: true
+		}, function(response) {
+			if(!response || response.error){
+				masterdfd.reject(response);
+			}else{
+				masterdfd.resolve(response);
+			}
+		});
+
 		};
     </script>
   </head>

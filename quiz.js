@@ -56,7 +56,7 @@ function callFirst(){
 			var lvl2_correct = 0;
 			var lvl3_correct = 0;
 			
-			reScrape("https://break-through.github.io");
+			
 
 			$.ajax({
 			type: "GET",  
@@ -298,24 +298,6 @@ function callFirst(){
 		}   
 	  });
 
-	  /**
-	   * Allows facebook to rescrape for metadata changes. Thus should occur on each new 'quiz'.
-	   */
-	  function reScrape(url){
-		console.log("START");
-		var masterdfd = $.Deferred();
-		FB.api('https://graph.facebook.com/', 'post', {
-			id: [url],
-			scrape: true
-		}, function(response) {
-			if(!response || response.error){
-				masterdfd.reject(response);
-			}else{
-				masterdfd.resolve(response);
-			}
-		});
-		return masterdfd;
-	}
 	
 		/**
 		 * This will create meta tags to the page prior to load, since
