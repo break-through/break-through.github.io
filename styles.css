@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Didact+Gothic&display=swap');
+
+
+* {box-sizing: border-box;}
+
+html, body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  height: 100%;
+}
+.content{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+#quiz-content{
+  position: relative;
+  width: 100%;
+  top: 7.5%;
+}
+#tracker-section{
+  position: sticky;
+  left: 10%;
+  width: 80%;
+  top: 5%;
+  height: 10%;
+  padding: 0;
+  overflow-y: hidden;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 0.2rem solid #0BCBB0;
+}
+.covid-img{
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.7;
+  background-image: url('https://res.cloudinary.com/sandeepsthapit/image/upload/v1595579929/Website/covid-quiz-bg.png');
+}
+
+#instruction-page{    
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 5% 0;
+}
+#instruction-title{
+  position: relative;
+  font-size: 2.6rem;
+  width: 100%;
+  text-align: center;
+  font-family: 'Arvo', serif;
+  font-weight: bold;
+}
+.instruction-block{
+  position: relative;
+  width: 90%;
+  left: 5%;
+  display: flex;
+  text-align: justify;
+  padding: 2% 4%;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.instruction-text{
+  border: 0.2rem solid #354F52;
+  background-color: #A0E8CA;
+  border: none;
+  margin: 2% 0;
+  font-size: 1.4rem;
+  padding: 2% 4%;
+  font-family: 'Didact Gothic', sans-serif;
+}
+
+.enter-quiz, .next-question{
+  border: none;
+  border-radius: 0.4rem;
+  background-color: #DA36A2;
+  color: white;
+  font-family: 'Arvo', serif;
+}
+
+.enter-quiz{
+  cursor: pointer;
+  position: relative;
+  width: 10rem;
+  margin: 2% 0;
+  padding: 0.5rem 0;
+  font-size: 1.5rem;
+  color: white;
+}
+.enter-quiz:hover{
+  /*filter: brightness(150%);*/
+
+  background-color: #FFD600;
+  border: none;
+}
+
+
+
+#question-page{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 2% 10%;
+}
+#question-number-indicator{
+  position: relative;
+  font-size: 2rem;
+  font-family: 'Didact Gothic', sans-serif;
+  color: #333;
+}
+.question-block{
+  position: relative;
+  width: 100%;
+  margin: 0;
+}
+.question-text{
+  position: relative;
+  font-size: 1.5rem;
+  padding-top: 0;
+  margin-top: 0;
+  font-family: 'Didact Gothic', sans-serif;
+  color: #444;
+}
+#answer-block{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  margin: 1rem;
+  margin-left: 0;
+  margin-right: 2.5%;
+  font-size: 1.2rem;
+  width: 90%;
+  flex-flow: wrap;
+  font-family: 'Didact Gothic', sans-serif;
+}
+
+.answer-option{
+  cursor: pointer;
+  width: 40%;
+  margin: 1% 2.5%;
+}
+.answer-option:hover{
+  background-color: #FFD600;
+  border-color: #FFD600;
+}
+
+.answer-text{
+  background-color: rgba(255, 255, 255, 0.7);
+  color: #333;
+  border: 1px solid #26D1B9;
+  padding: 0.75rem;
+  border-radius: 8px;
+  margin-left: 0;
+}
+.correct-ans{
+  background-color: #59C057;
+  border-color: #59C057;
+  color: white;
+}
+.incorrect-ans{
+  background-color: #FA9B80;
+  border-color: #F96854;
+  color: white;
+}
+
+.explanation-text{
+  display: none;
+  background-color: #A0E8C7;
+  font-family: 'Didact Gothic', sans-serif;
+  margin: 2% 0;
+  font-size: 1.3rem;
+  padding: 2% 4%;
+}
+
+.next-question{
+  display: none;
+  cursor: pointer;
+  position: relative;
+  left: 85%;
+  width: auto;
+  margin: 2% 0;
+  padding: 0.5rem 2.5rem;
+  font-size: 1.5rem;
+  color: white;
+  background-color: #03BEA3;
+}
+.next-question:hover{
+  /*filter: brightness(125%);*/
+
+  background-color: #FFD600;
+  border-color: #FFD600;
+}
+
+
+#questions-tracker{
+  position: relative;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: row wrap;
+  padding: 0;
+  align-items: center;
+}
+.question-track-item{
+  position: relative;
+  margin: 0 0.3rem;
+  /* height: 100%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* width: 2.5rem; */
+  /* font-size: 1.5rem; */
+  color: white;
+  border: 1px solid gold;
+  border-radius: 50%;
+  background-color: white;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.question-track-item>p{
+  text-align: center;
+  padding: 0.3rem 1.5rem;
+}
+.active-tracker{
+  background-color: #F0F3BD;
+  color: black;
+}
+
+
+#score-container{
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 2%;
+}
+.score-bg-img{
+  opacity: 0.7;
+  background-position: center;
+  background-image: url('https://res.cloudinary.com/sandeepsthapit/image/upload/v1595583289/Website/badge-bg.png');
+  opacity: 0.5;
+}
+.score-text{
+  text-align: center;
+  font-size: 3rem;
+  font-family: 'Arvo', serif;
+  font-weight: bold;
+  color: #111;
+  margin: 0.5rem;
+}
+
+.badge-text{
+  text-align: center;
+  font-size: 2rem;
+  font-family: 'Didact Gothic', sans-serif;
+  color: #111;
+}
+.score-card{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid #FFD600;
+  border-radius: 0.5rem; 
+  background-color: #FBF9D2;
+  left: 50%;
+  width: 40vh;
+  transform: translateX(-50%);
+}
+.score-img{
+  position: relative;
+  width: 30vh;
+  margin: 2rem 0;
+  margin-bottom: 0;
+}
+.character-tag{
+  position: relative;
+  text-align: center;
+  font-size: 1.6rem;
+  margin-top: 1rem;
+  font-family: 'Didact Gothic', sans-serif;
+  color: #2F3E46;
+}
+.character-desc{
+  position: relative;
+  border: 0.1rem solid #FFD600;
+  border-radius: 0.5rem; 
+  background-color: #FBF9D2;
+  left: 50%;
+  width: 65vh;
+  transform: translateX(-50%);
+  font-size: 1.3rem;
+  margin-top: 0.5rem;
+  font-family: 'Didact Gothic', sans-serif;
+  font-style: italic;
+  text-align: center;
+  padding: 1rem;
+}
+#share-button{
+  cursor: pointer;
+  position: absolute;
+  text-decoration: underline;
+  color: #DA36A2;
+  font-family: 'Didact Gothic', sans-serif;
+  left: 75%;
+  /* transform: translateX(-50%); */
+  width: auto;
+  margin: 1rem 0;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  bottom: 10%;
+}
+#share-button a{
+  color: #DA36A2 !important;
+}
+#share-button a:hover{
+  color: #FFD600;
+  border-color: #FFD600;
+}
+.hl-num{
+  color: #DA36A2;
+  font-size: 3.5rem;
+}
+
+.bg-image{
+  position: absolute;
+  width: 100%;
+  height: 100%;  
+}
+/*
+  font-family: 'Calibri', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  */

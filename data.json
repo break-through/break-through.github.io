@@ -1,0 +1,276 @@
+{
+  "section": [
+	  {
+	    "sectionname": "Avoiding it",
+	    "data": [
+	    	{
+	    		"question": "How does social distancing work?",
+	    		"answer": "It is best to keep 1m or 3ft from other people, and even greater distance is better. In the UK for example, people are told to keep at least two metres apart. If you have a cough and there are old or frail or ill family members try not to cough near them and allow air to circulate. Remember though that the greatest chance of catching Covid is from someone who is coughing close by."
+	    	},
+	    	{
+	    		"question": "People are maintaining social distancing of at least 3 feet. What does this mean? Does this mean that virus cannot live in air or it cannot travel the distance more than 3 feet?",
+	    		"answer": "This distancing reduces the chances of inhaling a lot of virus in the air, and what we need is to reduce the chance of infection and hope to inhale or swallow large qualities of the virus. Many of us will get the virus but most of us will experience few significant symptoms."
+	    	},
+	    	{
+	    		"question": "How does coughing spread covid?",
+	    		"answer": "One cough can fire 3000 droplets into the air and if the person who coughed has covid then they will be firing millions of virus particles into the air. These may be inhaled by someone close by, or may land on solid surfaces that become contaminated and that is why it is important to cover your mouth when sneezing and coughing. Masks therefore help stop the spread."
+	    	},
+	    	{
+	    		"question": "What are the best actions to avoid covid?",
+	    		"answerlist": ["Wash hands frequently with soap and water for 20 seconds", "Try to avoid touching your face, eyes and your mask", "Stop (or cut down) smoking – smokers are more likely to catch Covid and then are more likely to die of it.", "If unwell stay inside", "Avoid crowds", "Greet with Namaste rather than shaking hands."]
+	    	},
+	    	{
+	    		"question": "What is better for cleaning the hands, alcohol gel or soap and water?",
+	    		"answer": "Soap and water."
+	    	},
+	    	{
+	    		"question": "For safety precautions, apart from frequent hand washing and social distancing what are other safety measures to be followed, at individual and household/family level?",
+	    		"answer": "If anyone has a cough, it is best to avoid sitting closely together in the same room; open the windows, cough outside!"
+	    	},
+	    	{
+	    		"question": "Polythene bags and raincoat has been used by health workers in recent days due to lack of Personal Protective Equipment. Is it safe??? ",
+	    		"answer": "Frankly I don’t think this kind of protective clothing is practical for ordinary people. Keep your distance, wash your marks often and if you are a smoker stop smoking! Today!."
+	    	},
+	    	{
+	    		"question": "Will the virus spread along the surface of the road if a corona-virus infected person passes by? ",
+	    		"answer": "This would be most unlikely, especially if you are more than a metre away."
+	    	},
+	    	{
+	    		"question": "Is being close to a corona virus victim only once enough to transfer the virus?",
+	    		"answer": "It is a gambling game! The more people with Covid whom you mix with the more likely you will get it. The large numbers of cases in London may be because young people continued to go to nightclubs etc."
+	    	},
+	    	{
+	    		"question": "How long does covid-19 virus live in the air?",
+	    		"answer": "Up to 3 hours."
+	    	},
+	    	{
+	    		"question": "How long does the virus persist in the environment?",
+	    		"answer": "The virus can persist in air for up to three hours but it will be dispersed in the outdoors. Coughing into your hands allows you to then transfer to solid surfaces. Virus can persist on stainless steel and plastics for up to 72h and on cardboard and probably cloth for up to 24h. It is best to clean surfaces with more than 60% alcohol or 0.5% hydrogen peroxide or 0.1% sodium hypochlorite."
+	    	},
+	    	{
+	    		"question": "Does covid spread when only clothes come in contact? ",
+	    		"answer": "The commonest way to spread the disease is from someone coughing but in theory it can persist on clothes probably for 24h. Clothes washed at 60°C should be safe though."
+	    	},
+	    	{
+	    		"question": "If you are outside taking exercise can you catch covid?",
+	    		"answer": "If you are running or cycling or walking with (or close to) someone who has the disease it is possible to catch it from them. Interesting research https://medium.com/@jurgenthoelen/belgian-dutch-study-why-in-times-of-covid-19-you-can-not-walk-run-bike-close-to-each-other-a5df19c77d08 suggests that greater distancing might be needed, but probably only if people are exercising in great numbers. The message remains the same – it is best not to gather in large numbers, even in the outdoors."
+	    	}
+	    ]
+	},
+	{
+	    "sectionname": "Symptoms",
+	    "data": [
+	    	{
+	    		"question": "What are the symptoms of covid-19?",
+	    		"answer": "Unfortunately there are no symptoms that mean you certainly have Covid but cough and fever (over 100°F / 38°C) are the most important ones. Sneezing isn’t usually Covid but suggests a common cold. About 80% of people infected with Covid will have mild symptoms or no symptoms at all; around 99% of people infected with Covid survive. Covid symptoms tend to come on gradually and can be: sore throat, shortness of breath, headache, loss of appetite, loss of taste or smell, temporary aches and pains / muscle aches, and in children often a runny nose.\nMost people spread the disease when they have symptoms – that is cough and fever."
+	    	},
+	    	{
+	    		"question": "Should we go to the doctor immediately if we have a slight headache or a cough?",
+	    		"answer": "No if you have mild symptoms if you have a slight headache or cough there is no need. Take some paracetamol and plenty of water to drink. You should keep away from old people and those with medical problems and wait for your immunity to kill the virus. And if you are a smoker, stop smoking!"
+	    	},
+	    	{
+	    		"question": "What is the incubation period?",
+	    		"answer": "Usually people begin symptoms 5-6 days after being infected but can it can be anywhere between 2 – 14 days."
+	    	},
+	    	{
+	    		"question": "Is it true that the number of viral particles that get into you, affects how ill you might become?",
+	    		"answer": "Probably. Viruses are tiny and need to get into the body in large numbers to make you ill. If one or two float into you on the air that is unlikely to have any effect but if someone with Covid coughs in your face you will probably breath in and swallow millions of virus particles.\nKeep away from people who are coughing and crowed places."
+	    	},
+	    	{
+	    		"question": "Suppose I get sick with covid but then I recover and do well, would I still be a risk to others that I hang out with? ",
+	    		"answer": "It is likely you will be able to behave normally – and even perhaps help old, vulnerable or frail members of the community."
+	    	},
+	    	{
+	    		"question": "Is there any chance of not having any symptoms even after getting infected with COVID-19? ",
+	    		"answer": "Yes, but currently we do not know how many people will have no symptoms but have the infection and become immune. It is thought that children may be like this."
+	    	},
+	    	{
+	    		"question": "If we have no symptoms of cough, running nose, fever, etc., do we still need to maintain distance from diabetic patients?",
+	    		"answer": "Try to avoid spending a lot of time in crowded, poorly ventilated rooms with them but otherwise there is probably no need, I would say! Generally a runny nose means you have a common cold, not covid."
+	    	},
+	    	{
+	    		"question": "As the season is changing, we can see many rural community members suffering from flu. Therefore, how can we distinguish between common cold/seasonal flu and Covid-19 patients in a locally without lab test? ",
+	    		"answer": "Assume anyone with fever and a cough has it and maintain social distancing but we all need to be kind to such people and make sure that have enough to eat and a supply of paracetamol."
+	    	},
+	    	{
+	    		"question": "What is meant by mild covid-19 symptoms? And how it is different from common cold and seasonal flu?",
+	    		"answer": "Mild symptoms mean a slight cough and maybe a sore throat. It is not easy to distinguish from other respiratory infections."
+	    	},
+	    	{
+	    		"question": "Is 14 days isolation sufficient to avoid COVID-19?",
+	    		"answer": "Generally and in most cases this is enough."
+	    	},
+	    	{
+	    		"question": "Are pregnant women more likely to be victim of corona virus?",
+	    		"answer": "At present it is thought that they are not at increased risk, because they are a young age. Similarly it is thought that the baby is not likely to be in danger either."
+	    	},
+	    	{
+	    		"question": "How long COVID-19 victim likely to live if not cured?",
+	    		"answer": "People infected with the virus can feel unwell for a few weeks but the illness is very variable indeed. At least 98.5% survive. "
+	    	},
+	    	{
+	    		"question": "Is pink eye a symptom of covid?",
+	    		"answer": "No"
+	    	},
+	    	{
+	    		"question": "How deadly is covid?",
+	    		"answer": "Because not everyone is being tested it is difficult to be sure how deadly the infection is but of the 712 passengers who had the disease on the Diamond Princess cruise ship 98.5% survived. This was despite the fact that many of these passengers were older people."
+	    	}
+	    ]
+	},
+	{
+	    "sectionname": "Treatment and diet",
+	    "data": [
+	    	{
+	    		"question": "Are there any treatments that kill the virus?",
+	    		"answer": "None is known so far, except respiratory support and oxygen but researchers are working on what works best. I would not recommend taking treatments suggested by friends. If you have a fever, taking paracetamol regularly (2 four times a day) will make you feel better and drinks containing honey help reduce the cough. People with symptoms of covid should drink lots of water, tea, juices, soups etc."
+	    	},
+	    	{
+	    		"question": "Is it dangerous to take ibuprofen if you have covid infection?",
+	    		"answer": "This is uncertain. Some doctors think that taking ibuprofen might make the illness worse so it is best to take paracetamol instead."
+	    	},
+	    	{
+	    		"question": "Is it true that drinking or washing out the mouth with strong alcohol will kill the virus?",
+	    		"answer": "No!"
+	    	},
+	    	{
+	    		"question": "People are taking alcohol to minimize the risk of attacking by COVID-19, is it true?",
+	    		"answer": "If you mean DRINKING alcohol this is NOT true. And remember that washing hands with water and soap is better at removing the virus than alcohol gels."
+	    	},
+	    	{
+	    		"question": "Are vegetarians less affected than non-veg? Is there any advice on what foods to eat?",
+	    		"answer": "Now that the leap has been made from meat to people, vegetarianism is probably not going to protect you – though it is generally a healthier option and reduced chances of bird flu, swine flu, Nipa virus and salmonella. It is always good to eat a balanced diet containing plenty of vegetables and some fruit if possible."
+	    	},
+	    	{
+	    		"question": "Can the virus exist in or on vegetables, fruits when we go shop for groceries?",
+	    		"answer": "The virus may survive on the skins of vegetables and on food packets. It is probably best to wash everything after bringing it into the home."
+	    	},
+	    	{
+	    		"question": "Is turmeric, black tea without sugar, turmeric, ginger, etc in hot water good for infected persons?",
+	    		"answer": "Honey in drinks help suppress a cough. Ginger is good for nausea. Turmeric is said to be healing and perhaps helps the immune system. These all sound good to me!"
+	    	},
+	    	{
+	    		"question": "Is sugar or sweet things harmful for health during the covid pandemic?",
+	    		"answer": "Excessive sugar in the diet isn’t good for anyone – it makes people fat and being overweight leads to diabetes!"
+	    	},
+	    	{
+	    		"question": "Even in this hard time of COVID-19, we are purchasing junk foods or any edible foods. How risky is this? What can we do to sterilize these items before use?",
+	    		"answer": "You can wipe down the food and packets with dilute bleach or other antiseptic. You can use 60% alcohol, or 0.5% hydrogen peroxide (H2O2), or 0.1% sodium hypochlorite bleach.\nAlso be careful not to put on weight because of inactivity and boredom. It is best to maintain a good diet if you can. Try not it comfort-eat!"
+	    	},
+	    	{
+	    		"question": "If a COVID victim (whose symptoms are not apparent) brings some foods (or milk) to the home and leaves it in a yard, if we pick up that food after sometime, what is the chance of its spread?",
+	    		"answer": "The chances of spread are possible but unlikely. Wiping the food and packets with dilute bleach or other antiseptic would be a good precaution if there are vulnerable people in the household. You can use 60% alcohol, or 0.5% hydrogen peroxide (H2O2), or 0.1% sodium hypochlorite bleach."
+	    	},
+	    	{
+	    		"question": "Does working-out help?",
+	    		"answer": "Working out is a VERY good idea! Fit people are more likely to survive than unfit people, exercises make you feel better in your mood and improve your ability to cough effectively. People who cannot cough (e.g. with rib fractures) are at increased risk of pneumonia. Yoga teaches people to breathe deeply and efficiently and will help a lot too."
+	    	},
+	    	{
+	    		"question": "How risky is running outside during this lockdown for fitness?",
+	    		"answer": "It is very good for physical and mental health and probably improves the immunity, unless the Police don’t like you being out! It is best not to do vigorous workouts though if the air quality is very bad."
+	    	},
+	    	{
+	    		"question": "Is the immune power of people and self-isolation the only solution for COVID-19? ",
+	    		"answer": "So far this is all we can do, but things are changing fast…."
+	    	},
+	    	{
+	    		"question": "How can we strengthen our immunity to fight against the coronavirus? (daily routine, diet, yoga, exercise and other)",
+	    		"answer": "Doing regular exercise is a very good idea and also eating fresh fruit and vegetables daily if you can...."
+	    	},
+	    	{
+	    		"question": "One Nepali pharmaceutical company has claimed hydrochloroquine sulphate can be useful in treating COVID-19. Does it work?",
+	    		"answer": "During the SARS pandemic doctors were conducting trials to see if chloroquine killed the virus but it was not helpful. Currently it is not known if it might be useful in controlling covid but research continues. I would NOT recommend taking it. One man swallowed some that was supposed to be used for his pet fish and he died!"
+	    	},
+	    	{
+	    		"question": "Are people who have recovered from the virus immune from contracting the infection again?",
+	    		"answer": "I would expect pretty much all recovered victims would be immune but some research is going on into this as a very few patients seem to be suffering from symptoms again. However, this might mean that the first diagnosis was incorrect."
+	    	},
+	    	{
+	    		"question": "News reports that the Corona infection worsens even after treatment in China? Can it be transferred even after recovery?",
+	    		"answer": "If this happens, this is I believe a rare event. The big risk is coughing patients 5 to 6 days after the illness starts. Doctors are probably at increased risk of severe and continuing disease because they come into contact with a lot of infected patients who are at the time of the illness when the maximum amount of virus is being spread"
+	    	},
+	    	{
+	    		"question": "Recent news showed that the victim treated and cured has been found to be COVID positive later, what might be the reason behind that?",
+	    		"answer": "Often tests stay positive after someone has recovered and I believe this was a case of continuing raised PCR which is good for diagnosis but doesn’t tell you how active the disease is still. A continuing positive PCR may not mean they are still ill or infections. Sometimes mistakes are made in diagnosis too! There are several ways to diagnose the disease, including the x-ray or CT of the lungs. This kind of case must be very rare.\nhttp://www.cidrap.umn.edu/news-perspective/2020/02/some-covid-19-patients-test-positive-days-after-recovery"
+	    	},
+	    	{
+	    		"question": "Can the plasma from recovered patients be used for curing others?",
+	    		"answer": "Yes, in theory their plasma might help others but so far I am not aware of this treatment being used."
+	    	},
+	    	{
+	    		"question": "Is there a vaccine?",
+	    		"answer": "Not yet. Doctors and medical scientists are working hard to produce a vaccine but it will be many months before one is made and there will be further time before it can be rolled out throughout the world."
+	    	},
+	    	{
+	    		"question": "As we all know that COVID-19 has become cosmopolitan and we all are expecting release of vaccine or medicine for this asap, is it mutation of Corona virus that has delayed to form vaccine or antidote?",
+	    		"answer": "No – it usually takes months or even years to make a new vaccine. The Chinese have shared what they know to other scientists so that the maximum number of people can try to make it. Trials are also going on to try to find effective medicines. Doctors have got some useful experience from trying to treat SARS which is also a coronavirus."
+	    	},
+	    	{
+	    		"question": "Will the hot weather kill the virus?",
+	    		"answer": "It may be that the hot weather will help to dispel the virus but the effect of the weather is not yet known. Other kinds of seasonal flu tend to reduce when we start going out. Being crowded together at home is the best was to spread diseases that are in the air we share!"
+	    	},
+	    	{
+	    		"question": "Does anything hot act as sterilizer against covid?",
+	    		"answer": "Hard surfaces with virus on them would probably be sterilized by being in direct sunshine"
+	    	},
+	    	{
+	    		"question": "Is it true spread in high temperature is less then less temperature? ",
+	    		"answer": "Probably but a hot bath, for example, will not help!!"
+	    	},
+	    	{
+	    		"question": "Can people infected with the virus can be cured or not?",
+	    		"answer": "At least 98.5% of people who get the virus recover. So far the treatments are only oxygen and ventilators but fortunately 80% of people don’t need to be hospitalized. Paracetamol helps treat the fever"
+	    	}
+	    ]
+	},
+	{
+	    "sectionname": "National and international",
+	    "data": [
+	    	{
+	    		"question": "What current models are being used to stop spreading Coronavirus around the world?",
+	    		"answer": "Stopping travel is a good idea – if everyone stopped moving the virus would die out in two weeks!"
+	    	},
+	    	{
+	    		"question": "Why is the ‘lockdown’ model is considered effective in low resource country like Nepal?",
+	    		"answer": "Locking down slows the spread and probably reduces the number of viruses inhaled and so reduces the chance of severe disease"
+	    	},
+	    	{
+	    		"question": "How long will the pandemic last?",
+	    		"answer": "My guess is maybe 6 months – but it is hard to say how long it will last in Nepal – probably less"
+	    	},
+	    	{
+	    		"question": "Will the effect be less in the summer?",
+	    		"answer": "This is unsure but it is hoped so."
+	    	},
+	    	{
+	    		"question": "Is isolation the best option?",
+	    		"answer": "Yes, but there is a difficult balance between keeping people safely isolated and allowing people to eat and work."
+	    	},
+	    	{
+	    		"question": "What was the source of the virus?",
+	    		"answer": "Wild animals caught for food in China."
+	    	},
+	    	{
+	    		"question": "How long will the lockdown be for? Can you give a tentative duration??",
+	    		"answer": "In the UK at risk people are being told to stay inside for 12 weeks! I cannot guess how long the government of Nepal will say but expect it will be a minimum of 3 weeks."
+	    	},
+	    	{
+	    		"question": "Lock down is only a temporary solution surely!?",
+	    		"answer": "The lockdown will slow the spread of the infection and I would also expect it to reduce the severity of disease in those who get ill."
+	    	},
+	    	{
+	    		"question": "Is covid transmittable to/from animals as well? Because lock down is not being applicable to animals... dogs and cats",
+	    		"answer": "I guess it is just possible that the virus could persist on the fur of a pet if someone with Covid coughed on it! This would not be a big risk though."
+	    	},
+	    	{
+	    		"question": "How do think that how much time it will be taking; the world will be completed recovered from this pandemic?",
+	    		"answer": "I would guess we will be through most of the troubles within six months, but I am an optimist!"
+	    	},
+	    	{
+	    		"question": "Is there any chance to shut down this virus?",
+	    		"answer": "Yes. It will probably spread to much of the population of the world and then we will become immune, then the virus will not have anywhere to go. It will die out naturally."
+	    	}
+	    ]
+	  }
+  ]
+}
