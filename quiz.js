@@ -133,6 +133,7 @@ function callFirst(){
 					$("#tracker-section").hide();
 					$('#user-score').text(score);
 					$('#total-ques').text(total_question_count);
+					console.log("Is this going on");
 					$("#share-button").on('click', function(event) {
 						console.log("Event listener activated lmao");
 						FB.ui({
