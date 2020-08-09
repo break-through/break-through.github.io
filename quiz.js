@@ -134,7 +134,7 @@ function callFirst(){
 					$('#user-score').text(score);
 					$('#total-ques').text(total_question_count);
 					console.log("Is this going on");
-					$("#share-button").on('click', function(event) {
+					$("#share-button").onclick = function(event) {
 						console.log("Event listener activated lmao");
 						FB.ui({
 							method: 'share',
@@ -142,7 +142,7 @@ function callFirst(){
 							hashtag: "#"+myData.character,
 							quote: myData.description,
 						  }, function(response){});
-					});
+					};
 				});
 			}
 
