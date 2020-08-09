@@ -56,7 +56,7 @@ function callFirst(){
 			var lvl2_correct = 0;
 			var lvl3_correct = 0;
 			
-			reScrape("https://break-through.github.io/index.html");
+			reScrape("https://break-through.github.io");
 
 			$.ajax({
 			type: "GET",  
