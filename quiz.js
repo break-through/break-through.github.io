@@ -22,7 +22,7 @@ function callFirst(){
 		  badge_url = random_badge.url;
 		  character = random_badge.character;
 		  description = random_badge.description;
-		  content_url="https://sandeep-sthapit.github.io/quiz/index.html";
+		  content_url="https://break-through.github.io/index.html";
 		  content_type = "website"
   
 		  badge = {"url": badge_url, "character": character, "description": description}
