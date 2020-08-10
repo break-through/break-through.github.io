@@ -1,43 +1,35 @@
 <!DOCTYPE html>
 <html>
   <head>
-    
-    <meta property="og:url" content="https://break-through.github.io/index.html">
-    <meta property="og:type" content="website">
-    <meta property="og:image" content="">
-    <meta property="og:title" content="Did you see my hashtag and story? That was my badge, earned through taking this quiz on COVID-19! I'm sure it taught me some new things that will keep me safer as well! ">
-<meta property="og:description" content="How much do you know about COVID-19? Take the quiz and share your badge!">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:url"                content="https://sandeep-sthapit.github.io/quiz/index.html" />
+    <meta property="og:type"               content="website" />
+    <meta property="og:title" content="The hashtag and message described the badge I earned after taking this quiz on COVID-19! ">
+    <meta property="og:description" content="How much do you know about COVID-19? Take the quiz and share your badge!">
+    <meta property="og:image"              content="https://res.cloudinary.com/sandeepsthapit/image/upload/v1591876093/Website/covid-logo.png" />
 
-    <script>
+    <link rel="stylesheet" href="styles.css">
+    <script
           src="https://code.jquery.com/jquery-3.4.1.min.js"
           integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
           crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.6/handlebars.min.js" integrity="sha256-usTqAE1ywvdMtksWzdeWzD75MsfJN0h0U7y2NtZL3N0=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/1.0.11/jquery.csv.min.js"></script>
-
-    <script type="text/javascript" src="quiz.js"></script>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1">
- 
-    <link rel="stylesheet" href="styles.css">
-    
     <script>
-    window.fbAsyncInit = function() {
-		FB.init({
-			appId            : '638093503503251',
-			autoLogAppEvents : true,
-			xfbml            : true,
-			version          : 'v7.0'
-    });
-
-
-		};
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId            : '292101951946162',
+          autoLogAppEvents : true,
+          xfbml            : true,
+          version          : 'v7.0'
+        });
+      };
     </script>
+    <script async defer src="https://connect.facebook.net/en_US/sdk.js"></script>
   </head>
 
   <body>
-    <div id="fb-root"></div>
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v8.0" nonce="rtGrL8Mt"></script>
+   
 
     <script id="createScore" type="text/x-handlebars-template">
       <div id="questions-tracker">
@@ -89,9 +81,7 @@
         </div>
         <p class="character-desc">{{description}}</p>
         <button id="share-button">
-          <!--<div class="fb-share-button" data-href="http://localhost:8000/quiz/index.html" data-layout="button" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsandeep-sthapit.github.io%2Fquiz%2Findex.html&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
-          -->
-          Share
+          <div class="fb-share-button" data-href="https://sandeep-sthapit.github.io/quiz/index.html" data-layout="button" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsandeep-sthapit.github.io%2Fquiz%2Findex.html&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
         </button>
       </div>
     </script>
@@ -102,5 +92,6 @@
       <div id='quiz-content'>
       </div>
     </div>
+    <script type="text/javascript" src="quiz.js"></script>
   </body>
 </html>
