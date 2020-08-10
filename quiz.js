@@ -111,10 +111,9 @@ $(document).ready(function(){
 			$('#user-score').text(score);
 			$('#total-ques').text(total_question_count);
             console.log("HEREdd?");
-			$("#share-button").onclick = function(event, myData) {
-                console.log("Event listener actidfvdfated lmao" + myData);
+			$("#share-button").on('click', function(event) {
                 runTemporaryWorkaround(myData);
-            };
+            });
 		});
 	}
 
