@@ -117,7 +117,7 @@ $(document).ready(function(){
                     method: 'share',
                     href: "https://break-through.github.io/index.html",
                     hashtag: "#"+myData.character,
-                    quote: "That quiz told me I'm a " + myData.character + "!. It describes me d as follows: " + myData.description,
+                    quote: "That quidfz told me I'm a " + myData.character + "!. It describes me d as follows: " + myData.description,
                   }, function(response){});
 			};
 		});
