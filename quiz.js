@@ -109,7 +109,7 @@ $(document).ready(function(){
 			$("#tracker-section").hide();
 			$('#user-score').text(score);
 			$('#total-ques').text(total_question_count);
-            console.log("HERE?");
+            console.log("HEREdd?");
 			$("#share-button").onclick = function(event) {
                 //runTemporaryWorkaround(myData);
                 console.log("HERE?");
