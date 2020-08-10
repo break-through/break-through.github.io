@@ -111,7 +111,7 @@ $(document).ready(function(){
 			$('#total-ques').text(total_question_count);
             console.log("HEREdd?");
 			$("#share-button").onclick = function(event) {
-                console.log("Event listener actidfvated lmao");
+                console.log("Event listener actidfvdfated lmao");
                 FB.ui({
                     method: 'share',
                     href: content_url,
