@@ -127,7 +127,7 @@ function callFirst(){
 				//for the bg image
 				$('.bg-image').addClass('score-bg-img');
 				$('.content').css('background-color', 'transparent');
-
+				console.log("HERE");
 				$.when($('#quiz-content').html(badgeData)).done(function(){
 					//add events on click
 					$("#tracker-section").hide();
