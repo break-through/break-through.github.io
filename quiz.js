@@ -111,7 +111,13 @@ $(document).ready(function(){
 			$('#total-ques').text(total_question_count);
 
 			$("#share-button").onclick = function(event) {
-				runTemporaryWorkaround(myData);
+                //runTemporaryWorkaround(myData);
+                FB.ui({
+                    method: 'share',
+                    href: "https://break-through.github.io/index.html",
+                    hashtag: "#"+myData.character,
+                    quote: "That quiz told me I'm a " + myData.character + "!. It describes me as follows: " + myData.description,
+                  }, function(response){});
 			};
 		});
 	}
