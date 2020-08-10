@@ -135,7 +135,7 @@ function callFirst(){
 					$('#total-ques').text(total_question_count);
 					console.log("Is this going on");
 					$("#share-button").onclick = function(event) {
-						console.log("Event listener activated lmao");
+						console.log("Event listener actidfvated lmao");
 						FB.ui({
 							method: 'share',
 							href: content_url,
