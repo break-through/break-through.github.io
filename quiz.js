@@ -111,15 +111,14 @@ $(document).ready(function(){
 			$('#total-ques').text(total_question_count);
             console.log("HEREdd?");
 			$("#share-button").onclick = function(event) {
-                //runTemporaryWorkaround(myData);
-                console.log("HERE?");
+                console.log("Event listener actidfvated lmao");
                 FB.ui({
                     method: 'share',
-                    href: "https://break-through.github.io/index.html",
+                    href: content_url,
                     hashtag: "#"+myData.character,
-                    quote: "That quidfz tdold me I'm a " + myData.character + "!. It describes me d as follows: " + myData.description,
+                    quote: charactermyData.description,
                   }, function(response){});
-			};
+            };
 		});
 	}
 
