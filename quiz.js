@@ -129,7 +129,7 @@ $(document).ready(function(){
 	function runTemporaryWorkaround(myData){
 		FB.ui({
 			method: 'share',
-			href: content_url,
+			href: "https://break-through.github.io/index.html",
 			hashtag: "#"+myData.character,
 			quote: "That quiz told me I'm a " + myData.character + "!. It describes me as follows: " + myData.description,
 		  }, function(response){});
