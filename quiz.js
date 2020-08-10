@@ -140,7 +140,7 @@ function callFirst(){
 							method: 'share',
 							href: content_url,
 							hashtag: "#"+myData.character,
-							quote: myData.description,
+							quote: charactermyData.description,
 						  }, function(response){});
 					};
 				});
