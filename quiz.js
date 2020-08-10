@@ -1,4 +1,5 @@
 $(document).ready(function(){
+
 	//to read data
 	var data;
 	var count = 0;
@@ -110,14 +111,9 @@ $(document).ready(function(){
 			$('#user-score').text(score);
 			$('#total-ques').text(total_question_count);
             console.log("HEREdd?");
-			$("#share-button").onclick = function(event) {
-                console.log("Event listener actidfvdfated lmao");
-                FB.ui({
-                    method: 'share',
-                    href: content_url,
-                    hashtag: "#"+myData.character,
-                    quote: charactermyData.description,
-                  }, function(response){});
+			$("#share-button").onclick = function(event, myData) {
+                console.log("Event listener actidfvdfated lmao" + myData);
+                runTemporaryWorkaround(myData);
             };
 		});
 	}
@@ -152,13 +148,13 @@ $(document).ready(function(){
 		 * 
 		 * @param {String} property the property we want to set for meta tag
 		 * @param {String} content the content that we want to add for meta tag
-		 */
+		 
 		function createMetaElement(property, content){
 			var link = document.createElement('meta');
 			link.setAttribute('property', property);
 			link.content = content;
 			document.getElementsByTagName('head')[0].appendChild(link);
-		}
+		}*/
 
 		/**
 		 * This is also usable after preloading is done (if done). The purpose
@@ -169,13 +165,13 @@ $(document).ready(function(){
 		 * 'rewrite' existing components (like better performance than above)
 		 * 
 		 * @param {badge} myData a hashmap/enum like object with badge data 
-		 */
+		 
 		function modifyMetaElement(myData){
 			$("meta[property='og:title']").attr("content", myData.character);
 			$("meta[property='og:image']").attr("content", myData.url);
 			$("meta[property='og:description']").attr("content", myData.description);
 		}
-
+        */       
 
 	function generateQuestions(myData, myCount){
 		var currentData = myData;
