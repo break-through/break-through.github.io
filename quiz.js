@@ -110,7 +110,7 @@ $(document).ready(function(){
 			$('#user-score').text(score);
 			$('#total-ques').text(total_question_count);
             console.log("HEREdd?");
-			$("#share-button").onclick = function(event) {
+			$("#share-button").click = function(event) {
                 //runTemporaryWorkaround(myData);
                 console.log("HERE?");
                 FB.ui({
