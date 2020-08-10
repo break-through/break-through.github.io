@@ -103,15 +103,16 @@ $(document).ready(function(){
 		//for the bg image
 		$('.bg-image').addClass('score-bg-img');
 		$('.content').css('background-color', 'transparent');
-
+        console.log("HERE?");
 		$.when($('#quiz-content').html(badgeData)).done(function(){
 			//add events on click
 			$("#tracker-section").hide();
 			$('#user-score').text(score);
 			$('#total-ques').text(total_question_count);
-
+            console.log("HERE?");
 			$("#share-button").onclick = function(event) {
                 //runTemporaryWorkaround(myData);
+                console.log("HERE?");
                 FB.ui({
                     method: 'share',
                     href: "https://break-through.github.io/index.html",
