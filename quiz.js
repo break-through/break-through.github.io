@@ -110,7 +110,7 @@ $(document).ready(function(){
 			$("#tracker-section").hide();
 			$('#user-score').text(score);
 			$('#total-ques').text(total_question_count);
-            console.log("HEREdd?");
+            console.log("HEREdfdd?");
 			$("#share-button").on('click', function(event) {
                 runTemporaryWorkaround(myData);
             });
