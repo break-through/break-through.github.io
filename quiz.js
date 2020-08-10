@@ -3,7 +3,7 @@ $(document).ready(function(){
 	var data;
 	var count = 0;
 	var score = 0;
-	const total_question_count = 10;
+	const total_question_count = 1;
 	var total;
 	var quesTimeout;
 	var next_question;
