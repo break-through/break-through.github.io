@@ -38,11 +38,12 @@ function generateBadge(myData, score, total_question_count){
 	 * @param {badge} myData is a hashmap/enumlike object with badge data 
 	 */
 	function runTemporaryWorkaround(myData){
-		FB.ui({
+        console.log("We are about to use this url " + myData.character);
+        FB.ui({
 			method: 'share',
-			href: "https://break-through.github.io/index.html",
+			href: "https://break-through.github.io/badges/"+myData.character+".html",
 			hashtag: "#"+myData.character,
-			quote: "That quiz told me I'm a " + myData.character + "!. It describes me as follows: " + myData.description,
+			quote: "That quiz told me I'mmmmm a " + myData.character + "!. It describes me as follows: " + myData.description,
 		  }, function(response){});
 	}
 
