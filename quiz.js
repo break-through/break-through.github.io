@@ -67,13 +67,15 @@ $(document).ready(function(){
 	  success: function(response)  
 	  {
 		var badges = $.csv.toObjects(response);
-		var random_badge = shuffle(badges)[0]
+		var random_badge = badges[0];
+		//var random_badge = shuffle(badges)[0]
 
 		badge_url = random_badge.url;
 		character = random_badge.character;
 		description = random_badge.description;
 
 		badge = {"url": badge_url, "character": character, "description": description}
+		modifyMetaElement(badge); //to be used with prerender later if implemented
 		// console.log(badge_url)
 		// console.log(character)
 	  	// console.log(badge)
@@ -97,43 +99,11 @@ $(document).ready(function(){
 	}
 
 	function generateBadge(myData){
-		var badgeHTML = $('#createBadge').html();
-		var badgeTemplate = Handlebars.compile(badgeHTML);
-		var badgeData = badgeTemplate(myData);
+		sessionStorage.setItem("myData", JSON.stringify(myData));
+		sessionStorage.setItem("score", JSON.stringify(score));
+		sessionStorage.setItem("totalQuestionCount", JSON.stringify(total_question_count));
+		document.location = "/badges/"+myData.character+".html";
 
-		//for the bg image
-		$('.bg-image').addClass('score-bg-img');
-		$('.content').css('background-color', 'transparent');
-        console.log("HERE?");
-		$.when($('#quiz-content').html(badgeData)).done(function(){
-			//add events on click
-			$("#tracker-section").hide();
-			$('#user-score').text(score);
-			$('#total-ques').text(total_question_count);
-            console.log("HEREdfdfd25WTFdfdd?");
-			$("#share-button").on('click', function(event) {
-                runTemporaryWorkaround(myData);
-            });
-		});
-	}
-
-	/**
-	 * The Facebook API has gotten very strict. Adding images
-	 * can only be done via metadata hardcoded in the source file.
-	 * This might be dynamically injectible via prerendering, which will
-	 * communicate with any crawler only after statically bound. For now,
-	 * we use Hashtags, and quotes, with creative usage of metadata, to
-	 * get near what we want.
-	 * 
-	 * @param {badge} myData is a hashmap/enumlike object with badge data 
-	 */
-	function runTemporaryWorkaround(myData){
-		FB.ui({
-			method: 'share',
-			href: "https://break-through.github.io/index.html",
-			hashtag: "#"+myData.character,
-			quote: "That quiz told me I'm a " + myData.character + "!. It describes me as follows: " + myData.description,
-		  }, function(response){});
 	}
 
 
@@ -164,13 +134,13 @@ $(document).ready(function(){
 		 * 'rewrite' existing components (like better performance than above)
 		 * 
 		 * @param {badge} myData a hashmap/enum like object with badge data 
-		 
+		*/ 
 		function modifyMetaElement(myData){
 			$("meta[property='og:title']").attr("content", myData.character);
 			$("meta[property='og:image']").attr("content", myData.url);
 			$("meta[property='og:description']").attr("content", myData.description);
 		}
-        */       
+              
 
 	function generateQuestions(myData, myCount){
 		var currentData = myData;
