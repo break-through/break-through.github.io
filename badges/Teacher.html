@@ -32,9 +32,16 @@
 
     </head>
     <body>
+
       <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
         <script id="createBadge" type="text/x-handlebars-template">
-            <div id="score-container">
+            
+          <div>
+            <h1>Take a look at this score! Here's the link to start a new quiz: </h1>
+            <a href = " ../index.html">Take the Quiz!</a>
+          </div>
+          
+          <div id="score-container">
               <h2 class="score-text">You scored <span id='user-score2' class='hl-num'>8</span> out of <span id='total-ques2' class='hl-num'>10</span>.</h2>
               <h3 class="badge-text">You atually earned df the badge of {{character}}.</h2>
               <div class="score-card">
@@ -46,6 +53,7 @@
                 Share
               </button>
             </div>
+            
           </script>
     
           <div class="bg-image"></div>
