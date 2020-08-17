@@ -11,6 +11,31 @@
         <meta property="og:image"              content="https://i.ibb.co/mbt9PNK/teacher-woman.png" />
 
         <link rel="stylesheet" href="../styles.css">
+        <style>
+          .button {
+            border: none;
+            color: white;
+            padding: 16px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+          }
+          
+          .button1 {
+            background-color: white; 
+            color: black; 
+            border: 2px solid #4CAF50;
+          }
+          
+          .button1:hover {
+            background-color: #4CAF50;
+            color: white;
+          }
+          </style> <!--Quick example to make it look decent-->
 
         <script
         src="https://code.jquery.com/jquery-3.4.1.min.js"
@@ -38,7 +63,7 @@
             
           <div>
             <h1>Take a look at this score! Here's the link to start a new quiz: </h1>
-            <a href = " ../index.html">Take the Quiz!</a>
+            <button class="button button1" href = " ../index.html">Take the Quiz!</a>
           </div>
           
           <div id="score-container">

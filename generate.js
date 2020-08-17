@@ -3,6 +3,8 @@ $(document).ready(function(){
     myData = JSON.parse(sessionStorage.getItem("myData"));
     score = parseInt(JSON.parse(sessionStorage.getItem("score"), 10));
     total_question_count = parseInt(JSON.parse(sessionStorage.getItem("totalQuestionCount")));
+    console.log(score);
+    console.log(total_question_count);
 
     generateBadge(myData, score, total_question_count); //for readability, even if global in scope
 
@@ -41,7 +43,7 @@ function generateBadge(myData, score, total_question_count){
         console.log("We are about to use this url " + myData.character);
         FB.ui({
 			method: 'share',
-			href: "https://break-through.github.io/index.html",
+			href: "https://break-through.github.io/badges/"+myData.character+".html",
 			hashtag: "#"+myData.character,
 			quote: "That quiz told me I'mmmmm a " + myData.character + "!. It describes me as follows: " + myData.description,
 		  }, function(response){});
