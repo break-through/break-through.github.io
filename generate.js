@@ -1,25 +1,30 @@
+//This is done first to reroute if needed for data that doesn't exist (else would look messy)
+myData = JSON.parse(sessionStorage.getItem("myData"));
+score = parseInt(JSON.parse(sessionStorage.getItem("score"), 10));
+total_question_count = parseInt(JSON.parse(sessionStorage.getItem("totalQuestionCount")));
+
+automaticallyRerouteNew(score);
+
+/**
+ * The purpose of this is to reroute any new user who clicks on our link but has no score yet to go back
+ * to the main page so that a quiz can be taken. This is a safety incase someone goes to this page
+ * without any result yet.
+ */
+function automaticallyRerouteNew(score){
+    if(isNaN(score)){
+        document.location = "../index.html";
+    }
+}
+
+/**
+ * This can be used for all the badges (one single script) since it expects
+ * dynamically injected variables.
+ */
 $(document).ready(function(){
-
-    myData = JSON.parse(sessionStorage.getItem("myData"));
-    score = parseInt(JSON.parse(sessionStorage.getItem("score"), 10));
-    total_question_count = parseInt(JSON.parse(sessionStorage.getItem("totalQuestionCount")));
-
-    automaticallyRerouteNew(score);
-
     sessionStorage.clear(); //to clear it afterwards till the new session
 
     generateBadge(myData, score, total_question_count); //for readability, even if global in scope
 
-    /**
-     * The purpose of this is to reroute any new user who clicks on our link but has no score yet to go back
-     * to the main page so that a quiz can be taken. This is a safety incase someone goes to this page
-     * without any result yet.
-     */
-    function automaticallyRerouteNew(score){
-        if(isNaN(score)){
-            document.location = "../index.html";
-        }
-    }
 
     /**
      * Using the data passed in from the quiz, we generate a page
