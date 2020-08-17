@@ -3,6 +3,7 @@ $(document).ready(function(){
     myData = JSON.parse(sessionStorage.getItem("myData"));
     score = parseInt(JSON.parse(sessionStorage.getItem("score"), 10));
     total_question_count = parseInt(JSON.parse(sessionStorage.getItem("totalQuestionCount")));
+    sessionStorage.clear(); //to clear it afterwards till the new session
     console.log(score);
     console.log(total_question_count);
 
