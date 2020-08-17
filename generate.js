@@ -41,7 +41,7 @@ function generateBadge(myData, score, total_question_count){
         console.log("We are about to use this url " + myData.character);
         FB.ui({
 			method: 'share',
-			href: "https://break-through.github.io/badges/"+myData.character+".html",
+			href: "https://break-through.github.io/index.html",
 			hashtag: "#"+myData.character,
 			quote: "That quiz told me I'mmmmm a " + myData.character + "!. It describes me as follows: " + myData.description,
 		  }, function(response){});
