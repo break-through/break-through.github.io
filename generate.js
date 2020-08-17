@@ -13,7 +13,7 @@ function generateBadge(myData, score, total_question_count){
     var badgeHTML = $('#createBadge').html();
     var badgeTemplate = Handlebars.compile(badgeHTML);
     var badgeData = badgeTemplate(myData);
-
+    console.log(myData, score, total_question_count);
     //for the bg image
     $('.bg-image').addClass('score-bg-img');
     $('.content').css('background-color', 'transparent');
